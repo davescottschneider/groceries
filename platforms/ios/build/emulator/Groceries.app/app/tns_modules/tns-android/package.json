@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "tns-android@3.0.0",
+        "scope": null,
+        "escapedName": "tns-android",
+        "name": "tns-android",
+        "rawSpec": "3.0.0",
+        "spec": "3.0.0",
+        "type": "version"
+      },
+      "/Users/dave.schneider/Projects/Groceries"
+    ]
+  ],
+  "_from": "tns-android@3.0.0",
+  "_id": "tns-android@3.0.0",
+  "_inCache": true,
+  "_location": "/tns-android",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/tns-android-3.0.0.tgz_1493814755816_0.10281041031703353"
+  },
+  "_npmUser": {
+    "name": "tns-bot",
+    "email": "nativescript@telerik.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "tns-android@3.0.0",
+    "scope": null,
+    "escapedName": "tns-android",
+    "name": "tns-android",
+    "rawSpec": "3.0.0",
+    "spec": "3.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tns-android/-/tns-android-3.0.0.tgz",
+  "_shasum": "7b9e6560a0e186a2f102d932e0368c2d3e52c13c",
+  "_shrinkwrap": null,
+  "_spec": "tns-android@3.0.0",
+  "_where": "/Users/dave.schneider/Projects/Groceries",
+  "dependencies": {},
+  "description": "NativeScript Runtime for Android",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7b9e6560a0e186a2f102d932e0368c2d3e52c13c",
+    "tarball": "https://registry.npmjs.org/tns-android/-/tns-android-3.0.0.tgz"
+  },
+  "files": [
+    "**/*"
+  ],
+  "maintainers": [
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "panayot.cankov",
+      "email": "panayot.cankov@telerik.com"
+    },
+    {
+      "name": "tns-bot",
+      "email": "nativescript@telerik.com"
+    }
+  ],
+  "name": "tns-android",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "3.0.0"
+}

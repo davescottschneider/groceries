@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/nonselected.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/nonselected.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/delete.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/delete.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/recent.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/recent.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/checked.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/checked.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/unchecked_white.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/unchecked_white.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/selected.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/selected.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/pear.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/pear.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/banana.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/banana.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/icon.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/checked_white.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/checked_white.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo_signup.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/logo_signup.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/add.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/add.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/unchecked.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/unchecked.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/menu.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/menu.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo_login.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/logo_login.png"
+    },
+    {
+        "merged": "/Users/dave.schneider/Projects/Groceries/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/apple.png",
+        "source": "/Users/dave.schneider/Projects/Groceries/platforms/android/src/main/res/drawable-xxxhdpi/apple.png"
+    }
+]

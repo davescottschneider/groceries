@@ -1,0 +1,107 @@
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: x86_64-apple-darwin16.6.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk" "-iquote" "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator/include" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/internal" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/internal/TKLiveSync/include" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator" "-F/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/internal/" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/dave.schneider/Projects/Groceries/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Library/Frameworks"
+ignoring duplicate directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/internal
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/internal/TKLiveSync/include
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/internal (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: x86_64-apple-darwin16.6.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk" "-iquote" "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator/include" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/internal" "-I" "/Users/dave.schneider/Projects/Groceries/platforms/ios/internal/TKLiveSync/include" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator" "-F/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/internal/" "-F/Users/dave.schneider/Projects/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/dave.schneider/Projects/Groceries/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.6.0
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/dave.schneider/Library/Developer/Xcode/DerivedData/Groceries-ayoaquaaldzsttbtfpcxiqeltpin/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Library/Frameworks"
+ignoring duplicate directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/internal
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/internal/TKLiveSync/include
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/build/emulator (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAuth/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseInstanceID/Frameworks (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/internal (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public
+ /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/Headers/Public/Firebase
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+In file included from umbrella.h:548:
+In file included from /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h:3:
+In file included from /Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h:1:
+/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:35:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, readwrite) FIRAnalyticsConfiguration *analyticsConfiguration;
+^
+/Users/dave.schneider/Projects/Groceries/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:35:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:736:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/usr/include/os/log.h:17:2: error: using os/log.h requires Xcode 8 or later
+#error using os/log.h requires Xcode 8 or later
+ ^
+2 warnings and 1 error generated.

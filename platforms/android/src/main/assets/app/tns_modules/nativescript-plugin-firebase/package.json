@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-plugin-firebase",
+        "scope": null,
+        "escapedName": "nativescript-plugin-firebase",
+        "name": "nativescript-plugin-firebase",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/dave.schneider/Projects/Groceries"
+    ]
+  ],
+  "_from": "nativescript-plugin-firebase@latest",
+  "_id": "nativescript-plugin-firebase@3.11.4",
+  "_inCache": true,
+  "_location": "/nativescript-plugin-firebase",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-plugin-firebase-3.11.4.tgz_1492796135431_0.7639203972648829"
+  },
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-plugin-firebase",
+    "scope": null,
+    "escapedName": "nativescript-plugin-firebase",
+    "name": "nativescript-plugin-firebase",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.11.4.tgz",
+  "_shasum": "25fba8febb17f3b833a952710261398d5b4f8467",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-plugin-firebase",
+  "_where": "/Users/dave.schneider/Projects/Groceries",
+  "author": {
+    "name": "Telerik / Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/issues"
+  },
+  "dependencies": {
+    "fs-extra": "2.1.2",
+    "fs-promise": "^2.0.0",
+    "nativescript-hook": "^0.2.1",
+    "prompt-lite": "^0.1.1",
+    "xcode": "0.9.2"
+  },
+  "description": "Fire. Base. Firebase!",
+  "devDependencies": {
+    "prompt-lite": "^0.1.1",
+    "webpack": "~2.2.0",
+    "xcode": "0.9.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "25fba8febb17f3b833a952710261398d5b4f8467",
+    "tarball": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.11.4.tgz"
+  },
+  "gitHead": "d05b19ba2702fdc025669355fdf153d2596a895a",
+  "homepage": "https://github.com/eddyverbruggen/nativescript-plugin-firebase",
+  "keywords": [
+    "NativeScript",
+    "Firebase",
+    "Database",
+    "Authentication",
+    "Push Notifications",
+    "Notifications",
+    "Messaging",
+    "Remote Configuration",
+    "Storage",
+    "Crash Reporting",
+    "Analytics",
+    "Facebook",
+    "Google",
+    "AdMob"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/blob/master/LICENSE"
+  },
+  "main": "firebase",
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "name": "nativescript-plugin-firebase",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Processing"
+    },
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "scripts/entitlements-before-prepare.js",
+        "inject": true
+      },
+      {
+        "type": "after-prepare",
+        "script": "scripts/entitlements-after-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyverbruggen/nativescript-plugin-firebase.git"
+  },
+  "scripts": {
+    "bundle-installer": "npm install --ignore-scripts && webpack --config scripts/webpack.config.js scripts/installer.js scripts/postinstall.js",
+    "config": "node scripts/postinstall.js config",
+    "postinstall": "node postinstall-hooks.js && node scripts/postinstall.js",
+    "prepublish": "npm run bundle-installer",
+    "preuninstall": "node preuninstall-hooks.js",
+    "setup": "node scripts/postinstall.js setup"
+  },
+  "typings": "index.d.ts",
+  "version": "3.11.4"
+}
